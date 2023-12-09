@@ -1,5 +1,6 @@
 {
   "name": "henry-website",
+  "homepage": "https://henrydegrasse.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

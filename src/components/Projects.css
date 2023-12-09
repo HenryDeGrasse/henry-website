@@ -4,6 +4,11 @@
     padding: 20px;
 }
 
+.projectLayout {
+    display: flex;
+    justify-content: space-around;
+}
+
 .project {
     border: 1px solid black;
     width: 300px;
@@ -35,4 +40,38 @@
 
 .overlay:hover {
     opacity: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+        padding: 15px;
+    }
+
+    .project {
+        width: 30%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .projectLayout {
+        flex-direction: column;
+    }
+
+    .project {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .projectImage {
+        height: auto;
+    }
 }

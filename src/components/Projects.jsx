@@ -6,15 +6,15 @@ function Projects() {
 
     const projects = [
         { id: 1, title: "Groundstation PCB", imageUrl: "/groundstationBoard.jpg" },
-        { id: 2, title: "Project Two", imageUrl: "/path/to/image2.jpg" },
-        { id: 3, title: "Project Three", imageUrl: "/path/to/image3.jpg" }
+        { id: 2, title: "Work in Progress", imageUrl: "/path/to/image2.jpg" },
+        { id: 3, title: "Coming soon", imageUrl: "/path/to/image3.jpg" }
     ];
 
     return (
         <div className="container">
             <h2 style={{ textAlign: 'left' }}>Projects</h2>
             <hr />
-            <div style={{ display: 'flex', justifyContent: 'space-around' }}>
+            <div className="projectLayout">
                 {projects.map((project) => (
                     <Link to={`/project/${project.id}`} key={project.id} className="project">
                         <img src={project.imageUrl} alt={project.title} className="projectImage" />

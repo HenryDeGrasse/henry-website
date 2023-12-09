@@ -1,45 +1,16 @@
 import React from 'react';
+import './AboutMe.css';
 
 function AboutMe() {
-    const containerImgTextStyle = {
-        display: 'flex',
-        maxWidth: '1000px',
-        margin: '0 auto',
-        flexDirection: 'row', // Stack items vertically
-        alignItems: 'center', // Center items horizontally
-        justifyContent: 'center', // Center items vertically
-        height: '100vh',
-        textAlign: 'center',
-        padding: '10px',
-    };
-
-    const containerTextStyle = {
-        display: 'flex',
-        margin: '0 auto',
-        flexDirection: 'column', // Stack items vertically
-        alignItems: 'center', // Center items horizontally
-        justifyContent: 'center', // Center items vertically
-        height: '50vh',
-        textAlign: 'center',
-        padding: '20px',
-    };
-
-    const imageStyle = {
-        width: '300px', // Adjust size as needed
-        height: '400px',
-        borderRadius: '60%', // Makes the image circular
-        objectFit: 'cover', // Adjusts the image's fit within the element
-        marginRight: '20px', // Space between image and text
-    };
 
     return (
-        <div style={containerImgTextStyle}>
+        <div id="aboutMe" className="containerImgText">
             <img
                 src="/henry-headshot.JPG" // Replace with your image path
                 alt="Henry DeGrasse's Headshot"
-                style={imageStyle}
+                className="imageStyle"
             />
-            <div style={containerTextStyle}>
+            <div className="containerText">
                 <h1>About Me</h1>
                 <p>
                     Hello! I'm Henry DeGrasse, currently working a Software Engineering Co-op at Chewy. I am also a

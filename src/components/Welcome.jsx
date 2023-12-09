@@ -1,19 +1,18 @@
 import React from 'react';
+import './Welcome.css';
 
 function Welcome() {
-    const style = {
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: '100vh', // This makes the component take the full height of the viewport
-        fontSize: '2em', // Adjust the font size as needed
-        textAlign: 'center',
-        fontWeight: 'bold'
-    };
+    function scrollToAboutMe() {
+        const aboutMeElement = document.getElementById('aboutMe');
+        if (aboutMeElement) {
+            aboutMeElement.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
 
     return (
-        <div style={style}>
+        <div className="welcomeWords">
             Welcome to Henry DeGrasse's Digital Portfolio
+            <span className="arrow" onClick={scrollToAboutMe}>&#x2193;</span>
         </div>
     );
 }

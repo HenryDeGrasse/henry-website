@@ -24,11 +24,11 @@ function AboutMe() {
                 <p>
                     Outside of coding and algorithms, you can find me engaging in my set of hobbies. Whether it's
                     lacing up for a run, pen-to-paper doodling, training in MMA, or immersing myself in a good book,
-                    these activities are my way staying and feeling healthy and balanced.
+                    these activities are my way of staying and feeling healthy and balanced.
                 </p>
                 <p>
-                    But what drives me? Simply, my goal is to improve my life and the lives of those
-                    around me. I believe that by uplifting myself and those around me, I will consequently, uplift and
+                    My goal is to improve my life and the lives of those
+                    around me. I believe that by doing so, I will consequently, uplift and
                     create positive impacts on the world. Whether I'm part of a team, company, or alone, seeing
                     progress is how I obtain satisfaction.
                 </p>

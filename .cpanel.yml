@@ -1,7 +1,5 @@
 ---
 deployment:
   tasks:
-    - /usr/local/bin/npm install
-    - /usr/local/bin/npm run build
     - export DEPLOYPATH=/home/henrscjt/public_html/
     - /bin/cp -R build/* $DEPLOYPATH
